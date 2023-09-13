@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADER */
+
+#header {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#header h3 {
+    width: 80vw;
+    color: rgb(214, 79, 52);
+}
+
+#local {
+    padding: 10px;
+    color: rgb(214, 79, 52);
+}
+
+#search {
+    padding: 10px;
+    font-size: 1.2em;
+    color: rgb(99, 95, 95);
+}
+
+/* MENU */
+
+nav {
+    background-color: black;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+nav ul li {
+    margin-right: 1em;
+    padding: .6em;
+    list-style: none;
+    color: white;
+}
+
+nav ul li:nth-child(1) {
+    background-color: rgb(214, 79, 52);;
+}
+
+#carro, #aviao, #hotel {
+    padding: 5px;
+}
+
+/* FORMULARIO */
+
+section#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#form p {
+    font-size: 1.4em;
+    margin-bottom: .5em;
+}
+
+#from {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+#from input {
+    padding: .6em;
+    border: 1px solid darkgray;
+}
+
+
+#to {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .6em;
+}
+
+#to input {
+    padding: .6em;
+    border: 1px solid darkgray;
+}
+
+#submit input {
+    padding: .6em;
+    background-color: rgb(113, 109, 109);
+    border: none;
+    color: white;
+}
+
+/* LOCAIS */
+
+#locais {
+    background-color: rgba(243, 236, 236, 0.612);
+    margin: 0 auto;
+}
+
+#locais h3 {
+    padding-top: 3em;
+    margin-left: 0.9em;
+    margin-bottom: .5em;
+}
+
+#locais p {
+    margin-left: 1em;
+}
+
+#img-locais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.img {
+    position: relative;
+
+    width: 280px;
+    height: 250px;
+    background-color: blue;
+    margin: .5em;
+    background-size: cover;
+    background-position: center;
+}
+
+.img p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+
+    color: white;
+    font-weight: 200;
+}
+
+#cinque {
+    background-image: url(../img/cinqueterre.jpg);
+}
+
+#newyork {
+    background-image: url(../img/newyork.jpg);
+}
+
+#saof {
+    background-image: url(../img/sanfran.jpg);
+}
+
+#pisa {
+    background-image: url(../img/pisa.jpg);
+}
+
+#paris {
+    background-image: url(../img/paris.jpg);
+}
+
+/* LOCAIS 2 */
+
+#locais02 {
+    margin: 0 auto;
+}
+
+#locais02 h3 {
+    padding: 1em;
+    font-weight: 500;
+    color: rgb(82, 79, 79);
+}
+
+#locais02 p {
+    padding: 0 1em;
+    font-size: .9em;  
+}
+
+#locais02 legend {
+    padding: 0 1em;
+    margin-bottom: 1em;
+    font-size: 0.8;
+    color: rgb(187, 185, 185);
+}
+
+#locais02 h5 {
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    color: rgb(147, 145, 145);
+}
+
+#img-locais02 {
+    padding: 1.5em;
+}
+
+#norway {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img2 > img {
+    width: 280px;
+    height: 250px;
+}
+
+.img3 > img {
+    width: 280px;
+    height: 250px
+}
+
+#austria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* INPUT 2 */
+
+
+
+
